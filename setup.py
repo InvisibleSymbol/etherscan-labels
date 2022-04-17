@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="etherscan_labels",
-    version="0.0.1",
+    version="v20220418",
     author="InvisibleSymbol",
     author_email="etherscan-labels@invis.cloud",
     description="Easily queryable Labels from Etherscan",
