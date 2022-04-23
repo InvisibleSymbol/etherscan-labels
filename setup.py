@@ -18,7 +18,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.8',
-    package_data={'': ['./data/*.json']},
+    package_data={'': ['./data/*.json.bz']},
     install_requires=[
         'compress_json==1.0.5'
     ],
