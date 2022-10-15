@@ -1,5 +1,5 @@
 Small python library to give easy access to etherscan address labels & names. Obviously only as up-to-date as the extension is, as the data is stored locally. Though that does mean it works offline and without any requests. 
-<br>Overall size is 4.1MB, stored in 2 json files (addresses, labels) and compressed using bzip2. 
+<br>Overall size is 5.5MB, stored in 2 json files (addresses, labels) and compressed using bzip2. 
 
 If you use this, don't attribute me/this repo. **Attribute etherscan.io instead!**
 
