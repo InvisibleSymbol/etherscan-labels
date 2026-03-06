@@ -1,12 +1,11 @@
+import os
 import compress_json
-
-import pkg_resources
 
 from .label import Label
 
 
 class Labels:
-    labels = compress_json.load(pkg_resources.resource_filename(__name__, "data/labels.json.bz"))
+    labels = compress_json.load(os.path.join(os.path.dirname(__file__), "data/labels.json.bz"))
 
     @staticmethod
     def from_list(labels):

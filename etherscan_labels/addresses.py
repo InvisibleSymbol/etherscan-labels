@@ -1,12 +1,11 @@
+import os
 import compress_json
-
-import pkg_resources
 
 from .address import Address
 
 
 class Addresses:
-    addresses = compress_json.load(pkg_resources.resource_filename(__name__, "data/all.json.bz"))
+    addresses = compress_json.load(os.path.join(os.path.dirname(__file__), "data/all.json.bz"))
 
     @staticmethod
     def get(address):
